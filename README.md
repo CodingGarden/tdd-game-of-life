@@ -23,3 +23,8 @@
   * [x] Should retrieve a cell at a given row and column
   * [x] Should get the number of alive neighbors for a given cell
   * [x] Should create the next state of the game
+
+## TODO
+
+* [ ] Game set game state
+* [ ] Cell set state
