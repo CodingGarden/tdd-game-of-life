@@ -21,7 +21,7 @@ export default class Game {
     let numNeighbors = 0
     let startRow = row - 1 < 0 ? 0 : row - 1
     let endRow = row + 1 >= this.numRows ? this.numRows - 1 : row + 1
-    let startCol = col - 1 < this.numCols - 1 ? 0 : col - 1
+    let startCol = col - 1 < 0 ? 0 : col - 1
     let endCol = col + 1 >= this.numCols ? this.numCols - 1 : col + 1
 
     for (let i = startRow; i <= endRow; i++) {
